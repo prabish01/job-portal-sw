@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Prabish\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add tailwindcss
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;";C:\MinGW\bin";C:\Program Files\CMake\bin;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Prabish\Downloads\mp3val;C:\Users\Prabish\Downloads\mongoshell\mongosh-1.8.0-win32-x64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\xampp\php;C:\Users\Prabish\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\;C:\Program Files\MySQL\MySQL Server 8.1\bin;D:\Musics_for_Drive;C:\Users\Prabish\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Prabish\AppData\Local\Programs\Python\Python311\;C:\Users\Prabish\anaconda3;C:\Users\Prabish\anaconda3\Library\mingw-w64\bin;C:\Users\Prabish\anaconda3\Library\usr\bin;C:\Users\Prabish\anaconda3\Library\bin;C:\Users\Prabish\anaconda3\Scripts;C:\Users\Prabish\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Prabish\AppData\Local\Programs\Python\Python39\;C:\Users\Prabish\AppData\Local\Microsoft\WindowsApps;C:\Users\Prabish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2021.1.2\bin;C:\Users\Prabish\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\Prabish\AppData\Roaming\npm;C:\Users\Prabish\.dotnet\tools;C:\MinGW\bin;C:\Users\Prabish\AppData\Local\Microsoft\WindowsApps;C:\Users\Prabish\spicetify-cli;D:\Flutter\flutter\bin;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Users\Prabish\Downloads\ytdl;C:\Users\Prabish\Downloads\mp3val;C:\Users\Prabish\Downloads\mongoshell\mongosh-1.8.0-win32-x64\bin;C:\Users\Prabish\AppData\Roaming\nvm;C:\Program Files\nodejs;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Atkans\Speedwings\Job_vacancy_frontend\Job-portal\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "job-portal",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.15",
+      "@types/react-dom": "^18.2.7",
+      "@vitejs/plugin-react": "^4.0.3",
+      "autoprefixer": "^10.4.16",
+      "eslint": "^8.45.0",
+      "eslint-plugin-react": "^7.32.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.3",
+      "postcss": "^8.4.31",
+      "tailwindcss": "^3.3.3",
+      "vite": "^4.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

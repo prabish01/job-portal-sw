@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap");
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/* Apply hover styles to text elements inside jobType-container-child */
+.jobType-container-child:hover h3,
+.jobType-container-child:hover .jobcard-decription,
+.jobType-container-child:hover .jobtype_desc,
+.jobType-container-child:hover .jobtype_desc-location,
+.jobType-container-child:hover .jobtype_desc-company {
+  color: white;
+}
+
+/* Apply hover styles to applyButton */
+.jobType-container-child:hover .applyButton {
+  @apply bg-white text-sky-600;
+}
+
+/* Apply transition for smooth hover effect */
+.jobType-container-child {
+  @apply w-64 p-5 transition duration-300 ease-in-out transform hover:bg-blue-500 hover:shadow-lg;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: whiblack;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+li:hover::before {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background: orange;
+  color: blue;
+  bottom: -8px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+/* .card{
+
+} */
