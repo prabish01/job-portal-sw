@@ -7,12 +7,13 @@
 @import "tailwindcss/utilities";
 
 /* Apply hover styles to text elements inside jobType-container-child */
+/* Apply hover styles to child elements */
 .jobType-container-child:hover h3,
 .jobType-container-child:hover .jobcard-decription,
 .jobType-container-child:hover .jobtype_desc,
 .jobType-container-child:hover .jobtype_desc-location,
 .jobType-container-child:hover .jobtype_desc-company {
-  color: white;
+  @apply text-white;
 }
 
 /* Apply hover styles to applyButton */
@@ -22,7 +23,12 @@
 
 /* Apply transition for smooth hover effect */
 .jobType-container-child {
-  @apply w-64 p-5 transition duration-300 ease-in-out transform hover:bg-blue-500 hover:shadow-lg;
+  @apply transition duration-300 ease-in-out transform;
+}
+
+/* Apply hover styles to container */
+.jobType-container-child:hover {
+  @apply bg-white shadow-lg;
 }
 
 :root {
